@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2E2C2C"
+    android:background="#070200"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,7 +15,7 @@
         android:paddingStart="0dp"
         android:paddingEnd="10dp"
         android:textAlignment="textEnd"
-        android:textColor="#ffffff"
+        android:textColor="@color/black"
         android:textSize="40sp">
 
     </TextView>
@@ -31,7 +31,7 @@
         android:paddingStart="0dp"
         android:paddingEnd="10dp"
         android:textAlignment="textEnd"
-        android:textColor="#ffffff"
+        android:textColor="@color/black"
         android:textSize="40sp">
 
     </TextView>
@@ -63,7 +63,7 @@
         android:layout_marginTop="47dp"
         android:background="@drawable/buttondesign"
         android:text="@string/ac"
-        android:textColor="#F77F08"
+        android:textColor="@color/white"
         android:textSize="30sp">
 
     </Button>
@@ -286,7 +286,7 @@
         android:layout_toEndOf="@+id/buttonDot"
         android:background="@drawable/buttondesign"
         android:text="@string/equal"
-        android:textColor="#FFEB3B"
+        android:textColor="#F77F08"
         android:textSize="40sp">
     </Button>
 
